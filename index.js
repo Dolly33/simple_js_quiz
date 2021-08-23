@@ -22,11 +22,11 @@ let myQuestions = [
 
 function showQuestions(questions, quizContainer){
 	// we'll need a place to store the output and the answer choices
-	var output = [];
-	var answers;
+	let output = [];
+	let answers;
 
 	// for each question...
-	for(var i=0; i<questions.length; i++){
+	for(let i=0; i<questions.length; i++){
 		
 		// first reset the list of answers
 		answers = [];
